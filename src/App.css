@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: local("Poppins-Regular"),
+        url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: "Poppins-Regular";
+}
+
+.btn-primary {
+    background-color: #f04938 !important;
+    border-color: #f04938 !important;
+}
+
+.login-btn {
+    margin-top: 10px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+.jumbotron-width {
+    max-width: 450px;
+  }
